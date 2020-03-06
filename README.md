@@ -83,10 +83,10 @@ Use this syntax:
         
 After specifying the external parameters run `src/test/kotlin/com/luxoft/ssi/web/CredentialIssuerIntegrationTest.kt`
 
-It will generate a new Indy wallet in your home directory `~/.indy_client/wallet/LumedicSSIFlowTests/*`.
+It will generate a new Indy wallet in your home directory `~/.indy_client/wallet/<role specific directory>/*`.
 The wallet is an SqLite database and consists of 3 files: `sqlite.db`, `sqlite.db-shm`, `sqlite.db-wal`.
 You can use this wallet in your application if you copy those files 
-into the corresponding `.indy_client/wallet/LumedicSSIFlowTests` folder on the target device.
+into the corresponding `.indy_client/wallet/<role specific directory>` folder on the target device.
 
 ### Webapp setup
 
